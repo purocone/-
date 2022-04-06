@@ -1,11 +1,13 @@
 package じゃんけんゲーム;
+java.util.*;
 
 public class Player {
 
 	String name;
 	Hands hand;
 	int handNum;
-
+	ArrayList<int> scoreBord = new ArrayList<>();
+	
 	Player(String name){
 		this.name = name;
 	}

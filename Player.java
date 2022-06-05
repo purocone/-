@@ -1,13 +1,17 @@
 package じゃんけんゲーム;
-java.util.*;
 
-public class Player {
+import java.util.ArrayList;
+
+public class Player extends Players {
 
 	String name;
 	Hands hand;
 	int handNum;
-	ArrayList<int> scoreBord = new ArrayList<>();
+	int score;
+	int total;
 	
+	ArrayList<Integer> scoreBoard = new ArrayList<>();
+
 	Player(String name){
 		this.name = name;
 	}
@@ -51,7 +55,6 @@ public class Player {
 				this.handNum = cp3Brain();
 				break;
 		}
-	
 	}
 	
 	//CPの頭脳

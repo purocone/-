@@ -3,7 +3,7 @@ package じゃんけんゲーム;
 public class Stadium {
 
 	String winner;
-	int score;
+	String loser;
 	Player p1;
 	Player p2;
 
@@ -22,17 +22,18 @@ public class Stadium {
 
 				case GU:
 					this.winner = "Nothing";
-					this.score = 0;
 					break;
 
 				case CHOKI:
 					this.winner = p1.name;
-					this.score = Hands.GU.score;
+					this.loser = p2.name;
+					p1.score = Hands.GU.score;
 					break;
 
 				case PA:
 					this.winner = p2.name;
-					this.score = Hands.PA.score;
+					this.loser = p1.name;
+					p2.score = Hands.PA.score;
 					break;
 				}
 
@@ -44,17 +45,18 @@ public class Stadium {
 
 				case GU:
 					this.winner = p2.name;
-					this.score = Hands.GU.score;
+					this.loser = p1.name;
+					p2.score = Hands.GU.score;
 					break;
 
 				case CHOKI:
 					this.winner = "Nothing";
-					this.score = 0;
 					break;
 
 				case PA:
 					this.winner = p1.name;
-					this.score = Hands.CHOKI.score;
+					this.loser = p2.name;
+					p1.score = Hands.CHOKI.score;
 					break;
 				}
 
@@ -66,24 +68,38 @@ public class Stadium {
 
 				case GU:
 					this.winner = p1.name;
-					this.score = Hands.PA.score;
+					this.loser = p2.name;
+					p1.score = Hands.PA.score;
 					break;
 
 				case CHOKI:
 					this.winner = p2.name;
-					this.score = Hands.CHOKI.score;
+					this.loser = p1.name;
+					p2.score = Hands.CHOKI.score;
 					break;
 
 				case PA:
 					this.winner = "Nothing";
-					this.score = 0;
 					break;
 				}
-
-			break;
-
+			
+				break;	
+			
+			}
+			
+		if(this.winner == "nothing") {
+			this.loser = "nothing";
+			p1.score = 0;
+			p2.score = 0;
 		}
-
+		
+		if(this.loser == p1.name) {
+			p1.score = 0;
+		}
+		
+		if(this.loser == p2.name) {
+			p2.score = 0;
+		}
 	}
 }
 

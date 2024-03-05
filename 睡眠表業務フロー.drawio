@@ -1,9 +1,100 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T00:30:39.948Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" version="24.0.1" etag="Js8ehUFP9BOGyZ2kUBym" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-05T05:26:36.186Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" etag="VOq_LxD7tqS4UhDkf1so" version="24.0.1" type="github">
   <diagram name="ページ1" id="iNB7sugj4MV9LRQWi2q7">
-    <mxGraphModel>
+    <mxGraphModel dx="1306" dy="1021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EtYspNiEM9DG10u9Xiah-12" value="睡眠記録アプリ" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-190" width="170" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="EtYspNiEM9DG10u9Xiah-17" value="就寝時刻を保存" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="EtYspNiEM9DG10u9Xiah-12">
+          <mxGeometry x="30" y="540" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EtYspNiEM9DG10u9Xiah-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="EtYspNiEM9DG10u9Xiah-12" source="EtYspNiEM9DG10u9Xiah-8" target="EtYspNiEM9DG10u9Xiah-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtYspNiEM9DG10u9Xiah-8" value="起床時刻を保存" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="EtYspNiEM9DG10u9Xiah-12">
+          <mxGeometry x="25" y="189" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EtYspNiEM9DG10u9Xiah-46" value="起床時の体調を&lt;div&gt;&lt;div&gt;保存&lt;/div&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="EtYspNiEM9DG10u9Xiah-12">
+          <mxGeometry x="25" y="440" width="110" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="EtYspNiEM9DG10u9Xiah-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="EtYspNiEM9DG10u9Xiah-12" source="EtYspNiEM9DG10u9Xiah-48" target="EtYspNiEM9DG10u9Xiah-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtYspNiEM9DG10u9Xiah-48" value="起床時刻を確認" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EtYspNiEM9DG10u9Xiah-12">
+          <mxGeometry x="20" y="120" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EtYspNiEM9DG10u9Xiah-56" value="昨夜の就寝時刻と&lt;div&gt;本日の起床時刻で、&lt;/div&gt;&lt;div&gt;睡眠時間を算出&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EtYspNiEM9DG10u9Xiah-12">
+          <mxGeometry x="20" y="270" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EtYspNiEM9DG10u9Xiah-9" value="睡眠時間を保存" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="EtYspNiEM9DG10u9Xiah-12">
+          <mxGeometry x="25" y="366" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EtYspNiEM9DG10u9Xiah-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="EtYspNiEM9DG10u9Xiah-12" source="EtYspNiEM9DG10u9Xiah-56" target="EtYspNiEM9DG10u9Xiah-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtYspNiEM9DG10u9Xiah-13" value="自分の動き" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-121" y="-190" width="181" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="EtYspNiEM9DG10u9Xiah-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="EtYspNiEM9DG10u9Xiah-13" source="EtYspNiEM9DG10u9Xiah-14" target="EtYspNiEM9DG10u9Xiah-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtYspNiEM9DG10u9Xiah-14" value="就寝時の体調を記録" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EtYspNiEM9DG10u9Xiah-13">
+          <mxGeometry x="30" y="464" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EtYspNiEM9DG10u9Xiah-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="EtYspNiEM9DG10u9Xiah-13" target="EtYspNiEM9DG10u9Xiah-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="170.9999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtYspNiEM9DG10u9Xiah-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="EtYspNiEM9DG10u9Xiah-13" source="EtYspNiEM9DG10u9Xiah-5" target="EtYspNiEM9DG10u9Xiah-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtYspNiEM9DG10u9Xiah-5" value="アプリで&lt;div&gt;起床ボタンを押下&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EtYspNiEM9DG10u9Xiah-13">
+          <mxGeometry x="30" y="120" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EtYspNiEM9DG10u9Xiah-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="EtYspNiEM9DG10u9Xiah-13" source="EtYspNiEM9DG10u9Xiah-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="120.99999999999989" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtYspNiEM9DG10u9Xiah-3" value="起床する" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EtYspNiEM9DG10u9Xiah-13">
+          <mxGeometry x="30" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EtYspNiEM9DG10u9Xiah-22" value="就寝時刻を記録" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EtYspNiEM9DG10u9Xiah-13">
+          <mxGeometry x="30" y="550" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EtYspNiEM9DG10u9Xiah-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EtYspNiEM9DG10u9Xiah-5" target="EtYspNiEM9DG10u9Xiah-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtYspNiEM9DG10u9Xiah-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.025;entryY=0.59;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EtYspNiEM9DG10u9Xiah-14" target="EtYspNiEM9DG10u9Xiah-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="29" y="257.24" as="sourcePoint" />
+            <mxPoint x="90" y="260.74" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EtYspNiEM9DG10u9Xiah-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EtYspNiEM9DG10u9Xiah-22" target="EtYspNiEM9DG10u9Xiah-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtYspNiEM9DG10u9Xiah-23" value="就寝する" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-91" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EtYspNiEM9DG10u9Xiah-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EtYspNiEM9DG10u9Xiah-22" target="EtYspNiEM9DG10u9Xiah-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtYspNiEM9DG10u9Xiah-16" value="就寝時の体調を&lt;div&gt;保存&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="380" y="420" width="110" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="EtYspNiEM9DG10u9Xiah-10" value="起床時の体調を&lt;div&gt;アプリで入力&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

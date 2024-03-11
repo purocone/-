@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2024-03-11T20:10:57.732Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" version="24.0.1" etag="B1_9i5WORWU6K4HND7Cx" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-11T20:23:42.026Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" etag="rPRG0m8oh5HAsG07lhp1" version="24.0.5" type="github">
   <diagram name="ページ1" id="oUeUXFS2Ar5T0cETLznS">
-    <mxGraphModel>
+    <mxGraphModel dx="1834" dy="905" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1D-iy8eiCoonL3bohw3n-1" value="" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="-189" y="63" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1D-iy8eiCoonL3bohw3n-2" value="" style="image;html=1;image=img/lib/clip_art/general/Earth_globe_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="-67" y="63" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1D-iy8eiCoonL3bohw3n-4" value="" style="image;html=1;image=img/lib/clip_art/people/Suit_Man_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="-312" y="66" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1D-iy8eiCoonL3bohw3n-6" value="" style="image;html=1;image=img/lib/clip_art/networking/UPS_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="55" y="59" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1D-iy8eiCoonL3bohw3n-8" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1D-iy8eiCoonL3bohw3n-1" target="1D-iy8eiCoonL3bohw3n-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="175" y="225" as="sourcePoint" />
+            <mxPoint x="225" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1D-iy8eiCoonL3bohw3n-9" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1D-iy8eiCoonL3bohw3n-1" target="1D-iy8eiCoonL3bohw3n-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="175" y="225" as="sourcePoint" />
+            <mxPoint x="225" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1D-iy8eiCoonL3bohw3n-10" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1D-iy8eiCoonL3bohw3n-2" target="1D-iy8eiCoonL3bohw3n-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="175" y="225" as="sourcePoint" />
+            <mxPoint x="225" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

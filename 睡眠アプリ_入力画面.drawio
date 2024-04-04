@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2024-04-04T13:04:29.572Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" version="24.2.1" etag="tvI6Nn-axTbmll8PCwTl" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-04T13:11:16.734Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" etag="G60QooaTmrqadYHg5dtz" version="24.2.1" type="github">
   <diagram name="ページ1" id="Rgwh-uRHH0S9EuQyIHIY">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wiSmYPPb1m4iAslcFhkD-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="110" width="390" height="844" as="geometry" />
+        </mxCell>
+        <mxCell id="wiSmYPPb1m4iAslcFhkD-2" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;今日の起床時刻&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="150" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wiSmYPPb1m4iAslcFhkD-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="250" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wiSmYPPb1m4iAslcFhkD-6" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;今日の就寝時刻&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="340" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wiSmYPPb1m4iAslcFhkD-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="440" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wiSmYPPb1m4iAslcFhkD-8" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;今日の体調&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="535" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wiSmYPPb1m4iAslcFhkD-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="250" y="630" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wiSmYPPb1m4iAslcFhkD-10" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="335" y="630" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wiSmYPPb1m4iAslcFhkD-11" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="420" y="630" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wiSmYPPb1m4iAslcFhkD-12" value="①" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="345" y="265" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wiSmYPPb1m4iAslcFhkD-13" value="②" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="345" y="455" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wiSmYPPb1m4iAslcFhkD-14" value="③" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="345" y="655" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
